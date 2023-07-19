@@ -145,6 +145,14 @@ margin-bottom: 30px;
 .image-container2 img{
   width: 300px;
 }
+.text2{
+  color: #534C64;
+text-align: left;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 30px;
+}
+
 
 
 /* play games section */
@@ -299,7 +307,7 @@ footer{
   .online-title,.funny{
     font-size: 28px;
   }
-  .text{
+  .text,.text2{
     font-size: 12px;
   }
   .image-section{
@@ -374,13 +382,13 @@ footer{
    .image-container2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin-left: 40px;
+    margin-left: 20px;
     margin-bottom: 10px;
   }
   .online-title,.funny{
     font-size: 28px;
   }
-  .text{
+  .text,.text2{
     font-size: 12px;
   }
   .image-section{
@@ -388,7 +396,7 @@ footer{
   }
   .bigger-image{
     width: 530px;
-    margin-left: 80px;
+    margin-left: 150px;
   }
   .small-image img{
     width: 280px;
