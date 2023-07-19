@@ -325,6 +325,9 @@ footer{
   margin-left: 15px;
   gap: 0px;
  }
+ .image2{
+  display: none;
+ }
   .about,.button1{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -339,8 +342,14 @@ footer{
   .button1{
     margin-left: 10px;
   }
+  .btn-1,.btn-2{
+    margin-bottom: 20px;
+  }
+  .banner-top,.banner-title,.p1,.p2,.p3,.button{
+    margin-left: 10px;
+    }
 }
-@media screen  and (min-width: 425px) and (max-width: 768px){
+@media screen  and (min-width: 428px) and (max-width: 768px){
   nav,nav > ul,.banner,.play-online{
     flex-direction: column;
    }
@@ -397,6 +406,9 @@ footer{
   margin-left: 15px;
   gap: 0px;
  }
+ .image2  {
+  display: none;
+ }
   .about{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -416,5 +428,11 @@ footer{
 }
   .button1{
     margin-left: 10px;
+  }
+  .btn-1,.btn-2{
+    margin-bottom: 30px;
+  }
+  .banner-top,.banner-title,.p1,.p2,.p3,.button{
+  margin-left: 100px;
   }
 }
