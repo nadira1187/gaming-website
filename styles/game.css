@@ -145,6 +145,8 @@ margin-bottom: 30px;
 .image-container2 img{
   width: 300px;
 }
+
+
 /* play games section */
 .play-online{
   display: flex;
@@ -274,7 +276,10 @@ footer{
     margin-bottom: 10px;
     text-align: center;
    }
-
+ .banner-text{
+  width: 100%;
+  align-items: center;
+ }
    .logo-container,nav > ul{
     padding: 10px;
    }
@@ -334,6 +339,82 @@ footer{
   .button1{
     margin-left: 10px;
   }
-   
-    
+}
+@media screen  and (min-width: 425px) and (max-width: 768px){
+  nav,nav > ul,.banner,.play-online{
+    flex-direction: column;
+   }
+   .play-online{
+    margin-top: 20px;
+   }
+   nav li{
+    margin-bottom: 10px;
+    text-align: center;
+   }
+
+   .logo-container,nav > ul{
+    padding: 10px;
+   }
+   .image-container img{
+       width: 630px;
+       margin-left: 10px;
+   }
+   .banner,.banner-text{
+    width: 100%;
+   }
+   .image-container2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 40px;
+    margin-bottom: 10px;
+  }
+  .online-title,.funny{
+    font-size: 28px;
+  }
+  .text{
+    font-size: 12px;
+  }
+  .image-section{
+    width: 50%;
+  }
+  .bigger-image{
+    width: 530px;
+    margin-left: 80px;
+  }
+  .small-image img{
+    width: 280px;
+    position: relative;
+  bottom: -50px;
+  }
+  .play-text h3{
+  margin-top: 20px;}
+  .play-online{
+    margin-bottom: 5px;
+  }
+  .image1,.image2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-left: 15px;
+  gap: 0px;
+ }
+  .about{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 90px;
+    margin-right: 50px;
+  }
+  .button1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 200px;
+    margin-right: 90px;
+  }
+.paragraph{
+  display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+}
+  .button1{
+    margin-left: 10px;
+  }
 }
