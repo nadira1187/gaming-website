@@ -152,7 +152,40 @@ font-size: 18px;
 font-weight: 400;
 margin-bottom: 30px;
 }
-
+.im1{
+  width: 100%;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  border-radius: 10px;
+  border-color: #F948B2;
+  transition: opacity .4s ease-in-out;
+  background: #0B0223;
+  cursor: pointer;
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  text-align: center;
+}
+.im1:hover .overlay{
+  opacity: 0.8;
+  width: 95%;
+}
 
 
 /* play games section */
@@ -178,7 +211,7 @@ background-clip: text;
 .small-image{
   position: relative;
 bottom: 250px;
-/* border-radius: 10px; */
+
 }
 .bigger-image{
   margin-left: 200px;
@@ -331,7 +364,6 @@ footer{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   margin-left: 15px;
-  gap: 0px;
  }
  .image2{
   display: none;
@@ -339,14 +371,18 @@ footer{
   .about,.button1{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin-left: 10px;
-    margin-right: 10px;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 15px;
   }
 .paragraph{
   display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 5px;
+    margin-left: 25px;
+    margin-right: 15px; 
 }
+
   .button1{
     margin-left: 10px;
   }
@@ -401,7 +437,7 @@ footer{
   .small-image img{
     width: 280px;
     position: relative;
-  bottom: -50px;
+  bottom: -10px;
   }
   .play-text h3{
   margin-top: 20px;}
