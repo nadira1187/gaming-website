@@ -387,6 +387,7 @@ footer{
   font-weight: 400;
   width: 190px;
   margin-left: 5px;
+  margin-bottom: 20px;
 
 }
  .image2{
@@ -437,6 +438,7 @@ footer{
   nav,nav > ul,.banner,.play-online{
     flex-direction: column;
    }
+  
    .play-online{
     margin-top: 20px;
    }
@@ -458,7 +460,7 @@ footer{
    .image-container2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin-left: 20px;
+    margin-left: 50px;
     margin-bottom: 10px;
   }
   .online-title,.funny{
@@ -492,6 +494,9 @@ footer{
  }
  .image2  {
   display: none;
+ }
+ .image1 button{
+  margin-bottom: 20px;
  }
   .about{
     display: grid;
