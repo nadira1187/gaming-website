@@ -363,11 +363,12 @@ footer{
     width: 50%;
   }
   .bigger-image{
-    width: 330px;
+    width: 310px;
     margin-left: 80px;
   }
   .small-image img{
-    width: 220px;
+    width: 210px;
+    height: 250px;
     position: relative;
   bottom: -50px;
   }
@@ -384,7 +385,8 @@ footer{
 .image1 button{
   font-size: 15px;
   font-weight: 400;
-  width: 195px;
+  width: 190px;
+  margin-left: 5px;
 
 }
  .image2{
