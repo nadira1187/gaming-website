@@ -183,8 +183,10 @@ margin-bottom: 30px;
   text-align: center;
 }
 .im1:hover .overlay{
-  opacity: 0.8;
+  opacity: 0.7;
   width: 95%;
+  border: 2px solid transparent;
+  border-color: #FF42A5;
 }
 
 
